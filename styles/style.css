@@ -1,0 +1,57 @@
+:root {
+    --main-color: #EEE;
+    --sec-color: #888;
+    --tert-color: #555;
+    --acc-color: #e300e3;
+}
+
+/* core elements */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-color);
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    width: 22em;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--tert-color);
+    width: 100%;
+    font-size: 0.75rem;
+}
+
+img {
+    height: 10em;
+    width: 10em;
+}
+
+/* classes */
+
+.nav-button {
+    width: 10em;
+    height: 3em;
+    transition: 0.5s;
+}
+
+.nav-button:hover {
+    font-size: 1.2rem;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+
+/* other */
