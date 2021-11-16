@@ -42,7 +42,7 @@ header a:hover {
 }
 
 main {
-    height: 100%;
+    /* height: 100%; */
     overflow: hidden;
     padding: 2em;
 }
@@ -83,7 +83,7 @@ footer {
     color: var(--tert-color);
 }
 
-.img {
+.nav-box .img {
     background-size: cover;
     height: 7.5em;
     width: 7.5em;

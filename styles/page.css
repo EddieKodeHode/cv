@@ -1,0 +1,49 @@
+body {
+    overflow: auto;
+}
+
+main {
+    padding: 0;
+    margin: 2em 0;
+}
+
+footer {
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+
+/*  */
+
+.ex-box {
+    display: flex;
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 70%, rgba(0,0,0,0) 100%);
+}
+
+.ex-box p, .ex-box h3 {
+    margin: 0.5em 1em;
+}
+
+.ex-box .img {
+    background-size: cover;
+    height: 7.5em;
+    width: 15em;
+}
+
+.alt-box {
+    flex-direction: row-reverse;
+    color: var(--dark-color);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.4) 70%, rgba(0,0,0,0) 100%);
+}
+
+#img-space-cat {
+    background-image: url(../images/spacecat.png);
+}
+
+#img-hover {
+    background-image: url(../images/hover.png);
+}
+
+#img-cat-clicker {
+    background-image: url(../images/catclicker.png);
+}
