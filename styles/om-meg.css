@@ -1,0 +1,26 @@
+main {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+}
+
+.box {
+    border: 1px solid red;
+    margin: 0 1em;
+}
+
+.box:nth-child(1) {
+    width: 25%;
+}
+
+.box:nth-child(2) {
+    width: 75%;
+}
+
+#image-of-me {
+    background-image: url(../images/me.png);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
