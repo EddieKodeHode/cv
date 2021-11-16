@@ -18,7 +18,6 @@ body {
     color: var(--tert-color);
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
     background-image: url(../images/checkers.png);
     background-repeat: repeat;
     background-size: 10%;
@@ -42,9 +41,7 @@ header a:hover {
 }
 
 main {
-    /* height: 100%; */
-    overflow: hidden;
-    padding: 2em;
+    padding: 2em 0;
 }
 
 nav {
