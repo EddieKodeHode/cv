@@ -22,6 +22,7 @@ footer {
 .ex-box {
     display: flex;
     background: linear-gradient(90deg, rgba(0,0,0,0.9) 70%, rgba(0,0,0,0) 100%);
+    margin: 0.5em 0;
 }
 
 .ex-box p, .ex-box h3 {

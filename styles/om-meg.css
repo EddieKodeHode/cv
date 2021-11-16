@@ -1,17 +1,19 @@
 main {
     width: 80%;
     margin: auto;
-    background-color: black;
+    background-color: rgba(0,0,0,0.8);
     display: flex;
 }
 
 .box {
-    border: 1px solid red;
     margin: 0 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .box:nth-child(1) {
     width: 25%;
+    align-items: center;
 }
 
 .box:nth-child(2) {
