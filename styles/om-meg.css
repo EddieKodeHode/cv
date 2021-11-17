@@ -20,6 +20,11 @@ main {
     width: 75%;
 }
 
+.box:nth-child(1) p {
+    margin: 0;
+    font-size: 0.75rem;
+}
+
 #image-of-me {
     background-image: url(../images/me.png);
     height: 100px;
