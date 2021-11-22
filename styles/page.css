@@ -35,7 +35,7 @@ footer {
     width: 15em;
 }
 
-.alt-box {
+.ex-box:nth-child(even) {
     flex-direction: row-reverse;
     color: var(--dark-color);
     background: linear-gradient(270deg, rgba(255, 255, 255, 0.4) 70%, rgba(0,0,0,0) 100%);
